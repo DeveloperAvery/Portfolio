@@ -1,0 +1,106 @@
+/* This is the CSS script for my portfolio! */
+
+h1 {
+  font-size: 52px;
+}
+
+/* I wanted to keep the colors the same, so in order to make the font easier on the eyes as well as easier to read, I added font weight to the larger text that would be on lavender background. I also removed padding and margin to the smaller headings so that they wouldn't take so much space under my image. */
+
+h2 {
+  font-size: 44px;
+  font-weight: 1200;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 1000;
+  margin: 0;
+  padding: 0;
+}
+
+p, a {
+  font-size: 18px;
+}
+
+h1, p, ul, ol {
+  color: purple;
+}
+
+h2, h3 {
+  color: #36e4e7;
+}
+
+header div {
+  background-color: #6bfbfd81;
+}
+
+/* I want to keep the font the same on any one device, so I grouped all of the text to the same font-family, with the same backup fonts, I like the style of all the text being centered as well so I went with centering all the main text. */
+
+h1, h2, h3, p, a, ul, ol {
+  font-family: 'Cutive Mono', monospace, 'Times New Roman', Times, serif;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+p, ul, ol {
+text-align: left;
+}
+
+h1, h2, h3, footer p, nav {
+  text-align: center;
+}
+
+nav, article, header div, main div, footer div {
+  width: 500px;
+  margin: auto;
+}
+
+/* I like the way lavendar and plum go together and enjoy seeing it all over the page, so I figured I'd stick with these colors as the main ones. */
+
+body {
+  background-color: lavender;
+}
+
+/* I put a box border around the div in the header, so this is for that. Keeping the title with the links to jump to different parts of the page gives off a feel that you are exactly where you want to be, and where you want to be is hiring me. */
+
+.border-box {
+  box-sizing: border-box;
+}
+
+/* I like the feeling of the ridge border with the softer colors, but I might end up changing this around. */
+
+.ridge  {  border: 12px ridge #6bfbfd81 }
+
+header, footer {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 12px;
+  display: block;
+  border-radius: 50%;
+}
+
+hr {
+  border-style: solid;
+  color: purple;
+}
+
+/* I wanted to keep the link color scheme similar/the same as the rest the page while staying eye-catching. */
+
+a:link    { color: purple;  }
+a:visited { color: blueviolet; }
+a:hover   { color: orchid; }
+a:active  { color: #a7e2e3;  }
+
+/* I added font weight here as well so that the links would ctick out similarly to the listings. */
+
+a {
+  font-weight: 800;
+}

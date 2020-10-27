@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--This link is for the cool monospace font I found, I think it fits for a developer's portfolio because the letters are both evenly spaced, as well as easy on the eyes to follow/read quickly due to being a serif font as well.-->
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <!--This section is to have my title at the top, as well as to have links to jump to certain parts of my portfolio.-->
+      <div class="border-box ridge" id="home">
+        <h1> Avery, developer. </h1>
+        <!-- The "" are placeholders for right now since I'm still writing and therefore haven't had a chance to assing hrefs to the sections of my page. -->
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#aboutMe">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+    <div class="avery-image">
+      <img class="ridge" src="images/avery.png" alt="A selfie of myself.">
+    </div>
+
+    <!-- The h3 text might seem a bit silly, but I liked it enough to keep it in. If someone hires me after reading that, they're definitely the kind of boss I'd like to work for. -->
+
+    <section>
+      <h3> I love coding </h3>
+      <h3> <em>Let me code for you</em> </h3>
+      <p> Hello, I'm Avery Hamilton! I'm a developer from Indianapolis, Indiana. </p>
+      <hr>
+    </section>
+    <!-- I made this div an article instead as it is the focus of my page with text about yours truly, me. -->
+    <article>
+      <h2 class="about-me" id="aboutMe"> About me:</h2>
+      <p></p>
+      <p>I enjoy collaborating and connecting with others. In the past, people I've worked with have described me as incredibly friendly and optimistic. </p>
+      
+      <p>I'd love to bring that kind of energy with me onto any projects you'd like to hire me on for!</p>
+      <!-- I decided to make the list text strong/bold to accent the way they're presented on the site. -->
+      <p> I have experience with the following languages: </p>
+      <ul>
+        <strong>
+        <li> JavaScript </li>
+        <li> HTML </li>
+        <li> CSS </li>
+        </strong>
+      </ul>
+      <p>Of course, I'm always happy to study more! The above languages are just the ones that I have been able to explore so far thanks to Thinkful.</p>
+
+      <p> Typically in my free time I'll explore new things to do with code. When I need a mental break, you'll find me doing these kinds of activities: </p>
+      <ol>
+        <strong>
+        <li>Writing</li>
+        <li>Designing games<small>(okay, this one might still include coding...)</small></li>
+        <li>Cooking</li>
+        <li>Playing games</li>
+        <li>Watching shows</li>
+        </strong>
+      </ol>
+      <hr>
+    </article>
+    <div id="contact">
+      <h3>Contact Me</h3>
+      <p> Thanks for checking out my page. If you like what you've seen of me so far, feel free to reach out to me! I'd be more than happy to talk with you. </p>
+      <!--I put in links to my pages here, I might add more later.-->
+      <ul>
+        <strong>
+        <li><a href="https://www.linkedin.com/in/avery-hamilton-b75233186/">Linkedin</a></li>
+        <li><a href="https://github.com/DeveloperAvery">Github</a></li>
+        </strong>
+      </ul>
+    </div>
+    </main>
+    <footer>
+    <div>
+      <hr>
+      <!-- This is just a reminder that they visited my page, as well as additional links to jump back to something they may wish to revisit.-->
+      <p> <strong>Avery Hamilton</strong> </p>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#aboutMe">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
