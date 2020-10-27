@@ -48,12 +48,12 @@ p, ul, ol {
 text-align: left;
 }
 
-h1, h2, h3, footer p, nav {
+h1, h2, h3, footer p, nav, section {
   text-align: center;
 }
 
-nav, article, header div, main div, footer div {
-  width: 500px;
+nav, article, header div, main div, footer div, section {
+  width: 750px;
   margin: auto;
 }
 
