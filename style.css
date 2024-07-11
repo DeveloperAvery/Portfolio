@@ -109,3 +109,7 @@ button {
   border-color: pink;
   border-style: solid;
 }
+
+.projecttext {
+  float: inline-end;
+}
